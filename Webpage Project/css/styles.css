@@ -1,0 +1,59 @@
+body 
+{
+  font-size: 16px;
+  color: #fff;
+  background-color: #360202;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+  border-radius: 0;
+  border: 0;
+}
+#logo-img
+{
+  background: url('../images/logo.png') no-repeat;
+  width: 200px;
+  height: 150px;
+  margin: 0px 15px 10px 0px;
+  
+}
+.navbar-brand h1
+{
+  font-family:'Lora', cursive;
+  color: #684d13;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  
+}
+.navbar-brand a:hover {
+  text-decoration: none ;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #684d13;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+
+} 
+#nav-list a span {
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #684d13 ;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -25px
+}
+#collapsable-nav a{
+  font-size: 1.2em
+}
